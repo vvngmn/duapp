@@ -1,0 +1,31 @@
+git log # only show commit list 
+
+git show # 看commit之后的结果 
+
+git diff 
+
+tree folder # linux
+
+xxx.git # 原始仓库，clone from github
+
+.git # 本地克隆下来的仓库
+
+gitk --all
+
+
+git push --al # push all branches to default origin from donfig
+
+git branch -r # 从本地显示远程的分支
+
+
+git clone 仓库路径/ -b cat分支 放到新建文件夹vvn_cat 
+
+
+
+git format-patch 自己的工作前的commit号（git log）#从新到老每一次修改生成一个patch文件
+git format-patch -n（最近的n次修改）
+
+git am patch名 #增加现成的patch
+
+git reset --hard commitID #只保留commitID以及之前的修改
+
